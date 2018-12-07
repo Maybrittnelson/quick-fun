@@ -3,15 +3,16 @@
 Table of Contents
 =================
 
-* [Per-Requisites](#Per-Requisites)
-  * [安装JDK并更新PATH环境变量](#安装JDK并更新PATH环境变量)
+* [Per-requisites](#per-requisites)
+  * [安装jdk并更新path环境变量](#安装jdk并更新path环境变量)
   * [搭建kafka集群案例](#搭建kafka集群案例)
   * [搭建golang环境](#搭建golang环境)
-* [go install goim & run](#go install goim & run)
+* [安装goim并启动](#安装goim并启动)
+* [Demo启动并校验](#demo启动并校验)
 
-# Per-Requisites
+## Per-requisites
 
-###安装JDK并更新PATH环境变量 
+### 安装jdk并更新path环境变量 
 
 ### 搭建kafka集群案例
 
@@ -31,6 +32,8 @@ Table of Contents
       ```
 
 4. [Setting up a multi-broker cluster](http://kafka.apache.org/quickstart#quickstart_multibroker)
+
+[Back to TOC](#table-of-contents)
 
 ### 搭建golang环境
 
@@ -52,8 +55,9 @@ export PATH=$PATH:$GOROOT/bin
 export GOPATH=/data/apps/go
 $ source /etc/profile
 ```
+[Back to TOC](#table-of-contents)
 
-#go install goim & run
+### 安装goim并启动
 
 1. 下载goim以及安装第三依赖
 
@@ -113,7 +117,9 @@ $ nohup $GOPATH/bin/job -c $GOPATH/bin/job.conf 2>&1 > /data/logs/goim/panic-job
 
 如果启动失败，默认配置可通过查看panic-xxx.log日志文件来排查各个模块问题.
 
-# run & check demo
+[Back to TOC](#table-of-contents)
+
+# Demo启动并校验
 
 1. 安装并启动demo
 
@@ -128,4 +134,6 @@ $ nohup $GOPATH/bin/job -c $GOPATH/bin/job.conf 2>&1 > /data/logs/goim/panic-job
 通过浏览器访问：http://host:1999/demo.html
 
 是否有如下图片中的network：
+<img src="https://github.com/Maybrittnelson/quick-fun/blob/master/pics/demo.jpg">
 
+[Back to TOC](#table-of-contents)
