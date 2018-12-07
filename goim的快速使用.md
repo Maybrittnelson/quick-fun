@@ -18,7 +18,7 @@ Table of Contents
 
 1. [Download the code](http://kafka.apache.org/quickstart#quickstart_download)
 
-2. [get a quick-and-dirty single-node Zookeeper instance](http://kafka.apache.org/quickstart#quickstart_startserver)
+2. [Get a quick-and-dirty single-node Zookeeper instance](http://kafka.apache.org/quickstart#quickstart_startserver)
 
 3. 修改kafka默认启动参数
      ```shell
