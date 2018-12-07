@@ -21,8 +21,7 @@ Table of Contents
 2. [get a quick-and-dirty single-node Zookeeper instance](http://kafka.apache.org/quickstart#quickstart_startserver)
 
 3. 修改kafka默认启动参数
-
-   1. ```shell
+     ```shell
       [root@shaofeng ~]# vi /usr/local/kafka/bin/kafka-server-start.sh
       ...
       if [ "x$KAFKA_HEAP_OPTS" = "x" ]; then
